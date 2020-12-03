@@ -46,5 +46,5 @@ var findDuplicate = function(nums) {
            arr.push(nums[i])
        }
    }
-    return arr
+    return arr[0]
 };
