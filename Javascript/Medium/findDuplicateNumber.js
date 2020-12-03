@@ -39,7 +39,7 @@ All the integers in nums appear only once except for precisely one integer which
 
 var findDuplicate = function(nums) {
     let arr = []
-    let sort = nums.sort((a,b) => a - b)
+    nums.sort((a,b) => a - b)
    for(let i = 0; i < nums.length; i++){
        let next = nums[i+1]
        if(nums[i] == next){
